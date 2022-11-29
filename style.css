@@ -1,0 +1,38 @@
+/* .parent{
+    background-color: blueviolet;
+} */
+
+.item {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(153, 51, 51);
+}
+
+/* 
+@media screen and (max-width:900px) {
+    body{
+        background-color: crimson;
+    }
+
+}
+
+@media screen and (min-width:500px) and (max-width:850px) {
+     .third{
+        background: #000;
+      }
+    
+}
+
+@media screen and (min-width:900px) {
+    .third{
+       background: #000;
+     }
+    .parent .item:last-child{
+        background-color: orange;
+    }
+} */
+
+
+.parent .item:nth-child(3n+5) {
+    background-color: rgb(64, 255, 0);
+}
